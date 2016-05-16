@@ -5,7 +5,7 @@ browser instance. Unfortunately it does not work in Safari due to the current
 security model.
 
 If you just need cross-window/tab communication see
-[browser-bus](https://github.com/srcagency/browser-bus).
+[domain-bus](https://github.com/srcagency/domain-bus).
 
 ```js
 var bus = require('browser-bus')({
@@ -54,4 +54,3 @@ bus.listen(fn); // `fn(message)` will be called for each received message
 ## Resources
 
 - http://stackoverflow.com/questions/16226924/is-cross-origin-postmessage-broken-in-ie10
-- [browser-bus](https://github.com/srcagency/browser-bus)
