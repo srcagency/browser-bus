@@ -1,0 +1,8 @@
+{
+	"name": "browser-bus",
+	"description": "Cross-domain/tab/window communication in the browser",
+	"version": "0.0.1",
+	"repository": "srcagency/browser-bus",
+	"license": "MIT",
+	"author": "Thomas Jensen <thomas@src.agency> (http://src.agency)"
+}
