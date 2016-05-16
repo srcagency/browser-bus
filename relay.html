@@ -1,0 +1,14 @@
+<script src="https://wzrd.in/standalone/domain-bus@latest"></script>
+<script>
+	var bus = window.domainBus({
+		namespace: 'browser-bus',
+	});
+
+	window.addEventListener('message', function( e ){
+		bus.write(e.data);
+	});
+
+	bus.listen(function( m ){
+		window.parent.postMessage(m, '*');
+	});
+</script>
