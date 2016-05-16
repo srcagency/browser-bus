@@ -9,7 +9,7 @@ If you just need cross-window/tab communication see
 
 ```js
 var bus = require('browser-bus')({
-	relay: 'https://srcagency.github.com/browser-bus/relay.html',
+	relay: 'https://srcagency.github.io/browser-bus/relay.html',
 });
 
 bus.listen(function( m ){
@@ -42,7 +42,7 @@ The techniques used are:
 var bus = new Bus({
 	// if you need offline communication, use techniques to make the relay
 	// available offline as well
-	relay: 'https://srcagency.github.com/browser-bus/relay.html',
+	relay: 'https://srcagency.github.io/browser-bus/relay.html',
 });
 
 // write a message to the bus. Any JSON value is supported via JSON.stringify.
