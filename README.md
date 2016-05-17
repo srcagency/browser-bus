@@ -4,6 +4,18 @@ This was supposed to give you seamless (offline) communication across a
 browser instance. Unfortunately it does not work in Safari due to the current
 security model.
 
+Tested and working in:
+
+- Chrome 50
+- Firefox 46
+- IE 10
+
+Does not work in:
+
+- IE 11
+- Safari 9
+- Edge 13
+
 If you just need cross-window/tab communication see
 [domain-bus](https://github.com/srcagency/domain-bus).
 
@@ -54,3 +66,5 @@ bus.listen(fn); // `fn(message)` will be called for each received message
 ## Resources
 
 - http://stackoverflow.com/questions/16226924/is-cross-origin-postmessage-broken-in-ie10
+- http://stackoverflow.com/questions/20401751/iframe-localstorage-on-safari-and-safari-mobile
+- https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/5699170/
