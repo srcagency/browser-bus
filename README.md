@@ -1,8 +1,8 @@
 # Browser bus
 
 This was supposed to give you seamless (offline) communication across a
-browser instance. Unfortunately it does not work in Safari due to the current
-security model.
+browser instance. Unfortunately not all browsers like the creative use of
+technologies.
 
 Tested and working in:
 
