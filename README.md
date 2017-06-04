@@ -9,12 +9,13 @@ Tested and working in:
 - Chrome 50
 - Firefox 46
 - IE 10
+- Edge 15
 
 Does not work in:
 
 - IE 11
 - Safari 9
-- Edge 13
+- Edge 13-14
 
 If you just need cross-window/tab communication see
 [domain-bus](https://github.com/srcagency/domain-bus).
